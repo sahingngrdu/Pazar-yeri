@@ -4,6 +4,7 @@ import { getTranslations } from 'next-intl/server';
 import type { Metadata } from 'next';
 import { ProductCard } from '@/components/molecules/ProductCard';
 import { ProductCardSkeleton } from '@/components/atoms/Skeleton';
+import { SortSelect } from '@/components/atoms/SortSelect/SortSelect';
 import productsData from '@/data/products.json';
 import type { Product } from '@/types';
 
@@ -106,27 +107,11 @@ export default async function SearchPage({ params, searchParams }: Props) {
                                 {sortedResults.length} {locale === 'tr' ? 'sonuç' : 'results'}
                             </span>
 
-                            <div className="flex items-center gap-2">
-                                <label htmlFor="sort" className="text-sm text-gray-600 dark:text-gray-400">
-                                    {locale === 'tr' ? 'Sırala' : 'Sort'}:
-                                </label>
-                                <select
-                                    id="sort"
-                                    defaultValue={sort}
-                                    onChange={(e) => {
-                                        const url = new URL(window.location.href);
-                                        url.searchParams.set('sort', e.target.value);
-                                        window.location.href = url.toString();
-                                    }}
-                                    className="px-3 py-2 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
-                                >
-                                    {sortOptions.map((option) => (
-                                        <option key={option.value} value={option.value}>
-                                            {option.label}
-                                        </option>
-                                    ))}
-                                </select>
-                            </div>
+                            <SortSelect
+                                sortLabel={locale === 'tr' ? 'Sırala' : 'Sort'}
+                                currentSort={sort}
+                                options={sortOptions}
+                            />
                         </div>
                     )}
 
