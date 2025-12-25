@@ -1,0 +1,106 @@
+{
+    "site": {
+        "name": "Marketplace",
+        "description": "Discover clothing, fashion, electronics and more"
+    },
+    "nav": {
+        "home": "Home",
+        "categories": "Categories",
+        "favorites": "My Favorites",
+        "cart": "My Cart",
+        "account": "My Account",
+        "search": "Search...",
+        "allCategories": "All Categories"
+    },
+    "product": {
+        "addToCart": "Add to Cart",
+        "addedToCart": "Added to Cart!",
+        "addToFavorites": "Add to Favorites",
+        "removeFromFavorites": "Remove from Favorites",
+        "inStock": "In Stock",
+        "outOfStock": "Out of Stock",
+        "reviews": "{count} reviews",
+        "sku": "SKU",
+        "quantity": "Quantity",
+        "selectVariant": "Select Option",
+        "description": "Product Description",
+        "specifications": "Specifications",
+        "freeShipping": "Free Shipping",
+        "fastDelivery": "Fast Delivery"
+    },
+    "category": {
+        "allProducts": "All Products",
+        "filter": "Filter",
+        "sort": "Sort",
+        "sortOptions": {
+            "newest": "Newest",
+            "priceLowToHigh": "Price: Low to High",
+            "priceHighToLow": "Price: High to Low",
+            "popular": "Most Popular",
+            "rating": "Highest Rated"
+        },
+        "priceRange": "Price Range",
+        "brand": "Brand",
+        "showMore": "Show More",
+        "showLess": "Show Less",
+        "noProducts": "No products found in this category",
+        "results": "{count} products found"
+    },
+    "cart": {
+        "title": "My Cart",
+        "empty": "Your cart is empty",
+        "emptyDescription": "You haven't added any products to your cart yet.",
+        "continueShopping": "Continue Shopping",
+        "checkout": "Checkout",
+        "total": "Total",
+        "subtotal": "Subtotal",
+        "shipping": "Shipping",
+        "freeShipping": "Free",
+        "discount": "Discount",
+        "remove": "Remove",
+        "selectAll": "Select All",
+        "items": "items",
+        "clearCart": "Clear Cart",
+        "orderSummary": "Order Summary"
+    },
+    "favorites": {
+        "title": "My Favorites",
+        "empty": "Your favorites list is empty",
+        "addProducts": "Click the heart icon to add products"
+    },
+    "footer": {
+        "aboutUs": "About Us",
+        "contact": "Contact",
+        "helpCenter": "Help Center",
+        "returnPolicy": "Return Policy",
+        "privacyPolicy": "Privacy Policy",
+        "terms": "Terms of Use",
+        "followUs": "Follow Us",
+        "newsletter": "Newsletter",
+        "newsletterPlaceholder": "Your email address",
+        "subscribe": "Subscribe",
+        "copyright": "© {year} Marketplace. All rights reserved."
+    },
+    "common": {
+        "loading": "Loading...",
+        "error": "An error occurred",
+        "retry": "Retry",
+        "back": "Back",
+        "next": "Next",
+        "save": "Save",
+        "cancel": "Cancel",
+        "close": "Close",
+        "seeAll": "See All",
+        "new": "New",
+        "sale": "Sale",
+        "discount": "{percent}% Off",
+        "currency": "₺"
+    },
+    "errors": {
+        "notFound": "Page Not Found",
+        "notFoundMessage": "The page you're looking for doesn't exist or has been moved.",
+        "serverError": "Server Error",
+        "serverErrorMessage": "Something went wrong. Please try again later.",
+        "goHome": "Go to Home"
+    }
+}

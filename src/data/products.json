@@ -1,0 +1,429 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "iPhone 15 Pro Max 256GB",
+            "slug": "iphone-15-pro-max-256gb",
+            "description": "Apple iPhone 15 Pro Max, A17 Pro çip, 48MP kamera sistemi, Titanyum tasarım",
+            "categoryId": 11,
+            "brandId": 1,
+            "brand": {
+                "id": 1,
+                "name": "Apple",
+                "slug": "apple"
+            },
+            "rating": 4.8,
+            "reviewCount": 234,
+            "createdAt": "2024-01-15",
+            "updatedAt": "2024-01-15",
+            "variants": [
+                {
+                    "id": 101,
+                    "productId": 1,
+                    "price": 74999,
+                    "originalPrice": 79999,
+                    "stock": 15,
+                    "sku": "IP15PM-256-NT",
+                    "barcode": "1234567890123",
+                    "options": [
+                        {
+                            "id": 1,
+                            "title": "Renk",
+                            "value": "Natürel Titanyum"
+                        },
+                        {
+                            "id": 2,
+                            "title": "Kapasite",
+                            "value": "256GB"
+                        }
+                    ],
+                    "thumbnails": [
+                        {
+                            "id": 1,
+                            "url": "/images/products/iphone.png",
+                            "alt": "iPhone 15 Pro Max"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "id": 1,
+                    "url": "/images/products/iphone.png",
+                    "alt": "iPhone 15 Pro Max"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Samsung Galaxy S24 Ultra 512GB",
+            "slug": "samsung-galaxy-s24-ultra-512gb",
+            "description": "Samsung Galaxy S24 Ultra, Snapdragon 8 Gen 3, 200MP kamera, S Pen dahil",
+            "categoryId": 11,
+            "brandId": 2,
+            "brand": {
+                "id": 2,
+                "name": "Samsung",
+                "slug": "samsung"
+            },
+            "rating": 4.7,
+            "reviewCount": 189,
+            "createdAt": "2024-01-10",
+            "updatedAt": "2024-01-10",
+            "variants": [
+                {
+                    "id": 201,
+                    "productId": 2,
+                    "price": 64999,
+                    "originalPrice": 69999,
+                    "stock": 22,
+                    "sku": "SGS24U-512-BK",
+                    "barcode": "2234567890123",
+                    "options": [
+                        {
+                            "id": 1,
+                            "title": "Renk",
+                            "value": "Phantom Black"
+                        },
+                        {
+                            "id": 2,
+                            "title": "Kapasite",
+                            "value": "512GB"
+                        }
+                    ],
+                    "thumbnails": [
+                        {
+                            "id": 3,
+                            "url": "/images/products/samsung.png",
+                            "alt": "Galaxy S24 Ultra"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "id": 3,
+                    "url": "/images/products/samsung.png",
+                    "alt": "Samsung Galaxy S24 Ultra"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Nike Air Max 270 Erkek Spor Ayakkabı",
+            "slug": "nike-air-max-270-erkek",
+            "description": "Nike Air Max 270, maksimum hava yastığı teknolojisi, günlük kullanım için ideal",
+            "categoryId": 51,
+            "brandId": 3,
+            "brand": {
+                "id": 3,
+                "name": "Nike",
+                "slug": "nike"
+            },
+            "rating": 4.6,
+            "reviewCount": 456,
+            "createdAt": "2024-01-05",
+            "updatedAt": "2024-01-05",
+            "variants": [
+                {
+                    "id": 301,
+                    "productId": 3,
+                    "price": 3499,
+                    "originalPrice": 4299,
+                    "stock": 50,
+                    "sku": "NAM270-42-BW",
+                    "barcode": "3234567890123",
+                    "options": [
+                        {
+                            "id": 1,
+                            "title": "Renk",
+                            "value": "Siyah/Beyaz"
+                        },
+                        {
+                            "id": 2,
+                            "title": "Numara",
+                            "value": "42"
+                        }
+                    ],
+                    "thumbnails": [
+                        {
+                            "id": 4,
+                            "url": "/images/products/nike.png",
+                            "alt": "Nike Air Max 270"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "id": 4,
+                    "url": "/images/products/nike.png",
+                    "alt": "Nike Air Max 270"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Adidas Ultraboost 23 Koşu Ayakkabısı",
+            "slug": "adidas-ultraboost-23",
+            "description": "Adidas Ultraboost 23, Boost teknolojisi ile maksimum enerji geri dönüşü",
+            "categoryId": 51,
+            "brandId": 4,
+            "brand": {
+                "id": 4,
+                "name": "Adidas",
+                "slug": "adidas"
+            },
+            "rating": 4.9,
+            "reviewCount": 312,
+            "createdAt": "2024-01-08",
+            "updatedAt": "2024-01-08",
+            "variants": [
+                {
+                    "id": 401,
+                    "productId": 4,
+                    "price": 4999,
+                    "stock": 28,
+                    "sku": "AUB23-42-WH",
+                    "barcode": "4234567890123",
+                    "options": [
+                        {
+                            "id": 1,
+                            "title": "Renk",
+                            "value": "Core White"
+                        },
+                        {
+                            "id": 2,
+                            "title": "Numara",
+                            "value": "42"
+                        }
+                    ],
+                    "thumbnails": [
+                        {
+                            "id": 5,
+                            "url": "/images/products/adidas.png",
+                            "alt": "Adidas Ultraboost"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "id": 5,
+                    "url": "/images/products/adidas.png",
+                    "alt": "Adidas Ultraboost 23"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Zara Oversize Blazer Ceket",
+            "slug": "zara-oversize-blazer",
+            "description": "Zara Kadın Oversize Blazer Ceket, premium kumaş, şık tasarım",
+            "categoryId": 31,
+            "brandId": 5,
+            "brand": {
+                "id": 5,
+                "name": "Zara",
+                "slug": "zara"
+            },
+            "rating": 4.4,
+            "reviewCount": 89,
+            "createdAt": "2024-01-12",
+            "updatedAt": "2024-01-12",
+            "variants": [
+                {
+                    "id": 501,
+                    "productId": 5,
+                    "price": 1299,
+                    "originalPrice": 1799,
+                    "stock": 45,
+                    "sku": "ZOB-M-BK",
+                    "barcode": "5234567890123",
+                    "options": [
+                        {
+                            "id": 1,
+                            "title": "Renk",
+                            "value": "Siyah"
+                        },
+                        {
+                            "id": 2,
+                            "title": "Beden",
+                            "value": "M"
+                        }
+                    ],
+                    "thumbnails": [
+                        {
+                            "id": 6,
+                            "url": "/images/products/blazer.png",
+                            "alt": "Zara Blazer"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "id": 6,
+                    "url": "/images/products/blazer.png",
+                    "alt": "Zara Oversize Blazer"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "MacBook Pro 14 M3 Pro",
+            "slug": "macbook-pro-14-m3-pro",
+            "description": "Apple MacBook Pro 14 inç, M3 Pro çip, 18GB RAM, 512GB SSD",
+            "categoryId": 12,
+            "brandId": 1,
+            "brand": {
+                "id": 1,
+                "name": "Apple",
+                "slug": "apple"
+            },
+            "rating": 4.9,
+            "reviewCount": 156,
+            "createdAt": "2024-01-14",
+            "updatedAt": "2024-01-14",
+            "variants": [
+                {
+                    "id": 601,
+                    "productId": 6,
+                    "price": 89999,
+                    "stock": 8,
+                    "sku": "MBP14-M3P-512",
+                    "barcode": "6234567890123",
+                    "options": [
+                        {
+                            "id": 1,
+                            "title": "Renk",
+                            "value": "Space Black"
+                        },
+                        {
+                            "id": 2,
+                            "title": "Kapasite",
+                            "value": "512GB"
+                        }
+                    ],
+                    "thumbnails": [
+                        {
+                            "id": 7,
+                            "url": "/images/products/macbook.png",
+                            "alt": "MacBook Pro 14"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "id": 7,
+                    "url": "/images/products/macbook.png",
+                    "alt": "MacBook Pro 14 M3 Pro"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "H&M Slim Fit Gömlek",
+            "slug": "hm-slim-fit-gomlek",
+            "description": "H&M Erkek Slim Fit Gömlek, %100 pamuk, ofis ve günlük kullanım",
+            "categoryId": 41,
+            "brandId": 6,
+            "brand": {
+                "id": 6,
+                "name": "H&M",
+                "slug": "hm"
+            },
+            "rating": 4.2,
+            "reviewCount": 234,
+            "createdAt": "2024-01-06",
+            "updatedAt": "2024-01-06",
+            "variants": [
+                {
+                    "id": 701,
+                    "productId": 7,
+                    "price": 449,
+                    "originalPrice": 599,
+                    "stock": 120,
+                    "sku": "HMSF-L-WH",
+                    "barcode": "7234567890123",
+                    "options": [
+                        {
+                            "id": 1,
+                            "title": "Renk",
+                            "value": "Beyaz"
+                        },
+                        {
+                            "id": 2,
+                            "title": "Beden",
+                            "value": "L"
+                        }
+                    ],
+                    "thumbnails": [
+                        {
+                            "id": 8,
+                            "url": "/images/products/shirt.png",
+                            "alt": "H&M Gömlek"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "id": 8,
+                    "url": "/images/products/shirt.png",
+                    "alt": "H&M Slim Fit Gömlek"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Samsung 55 OLED 4K Smart TV",
+            "slug": "samsung-55-oled-4k",
+            "description": "Samsung 55 inç OLED 4K Smart TV, Neural Quantum Processor, Dolby Atmos",
+            "categoryId": 13,
+            "brandId": 2,
+            "brand": {
+                "id": 2,
+                "name": "Samsung",
+                "slug": "samsung"
+            },
+            "rating": 4.7,
+            "reviewCount": 78,
+            "createdAt": "2024-01-11",
+            "updatedAt": "2024-01-11",
+            "variants": [
+                {
+                    "id": 801,
+                    "productId": 8,
+                    "price": 44999,
+                    "originalPrice": 54999,
+                    "stock": 12,
+                    "sku": "SS55OLED-BK",
+                    "barcode": "8234567890123",
+                    "options": [
+                        {
+                            "id": 1,
+                            "title": "Boyut",
+                            "value": "55 inç"
+                        }
+                    ],
+                    "thumbnails": [
+                        {
+                            "id": 9,
+                            "url": "/images/products/tv.png",
+                            "alt": "Samsung OLED TV"
+                        }
+                    ]
+                }
+            ],
+            "images": [
+                {
+                    "id": 9,
+                    "url": "/images/products/tv.png",
+                    "alt": "Samsung 55 OLED TV"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,106 @@
+{
+    "site": {
+        "name": "Pazaryeri",
+        "description": "Giyim, moda, elektronik ve daha fazlasını keşfedin"
+    },
+    "nav": {
+        "home": "Ana Sayfa",
+        "categories": "Kategoriler",
+        "favorites": "Favorilerim",
+        "cart": "Sepetim",
+        "account": "Hesabım",
+        "search": "Ara...",
+        "allCategories": "Tüm Kategoriler"
+    },
+    "product": {
+        "addToCart": "Sepete Ekle",
+        "addedToCart": "Sepete Eklendi!",
+        "addToFavorites": "Favorilere Ekle",
+        "removeFromFavorites": "Favorilerden Çıkar",
+        "inStock": "Stokta",
+        "outOfStock": "Stokta Yok",
+        "reviews": "{count} değerlendirme",
+        "sku": "SKU",
+        "quantity": "Adet",
+        "selectVariant": "Seçenek Seçin",
+        "description": "Ürün Açıklaması",
+        "specifications": "Özellikler",
+        "freeShipping": "Ücretsiz Kargo",
+        "fastDelivery": "Hızlı Teslimat"
+    },
+    "category": {
+        "allProducts": "Tüm Ürünler",
+        "filter": "Filtrele",
+        "sort": "Sırala",
+        "sortOptions": {
+            "newest": "En Yeniler",
+            "priceLowToHigh": "Fiyat: Düşükten Yükseğe",
+            "priceHighToLow": "Fiyat: Yüksekten Düşüğe",
+            "popular": "En Popüler",
+            "rating": "En Yüksek Puan"
+        },
+        "priceRange": "Fiyat Aralığı",
+        "brand": "Marka",
+        "showMore": "Daha Fazla Göster",
+        "showLess": "Daha Az Göster",
+        "noProducts": "Bu kategoride ürün bulunamadı",
+        "results": "{count} ürün bulundu"
+    },
+    "cart": {
+        "title": "Sepetim",
+        "empty": "Sepetiniz boş",
+        "emptyDescription": "Sepetinize henüz ürün eklemediniz.",
+        "continueShopping": "Alışverişe Devam Et",
+        "checkout": "Siparişi Tamamla",
+        "total": "Toplam",
+        "subtotal": "Ara Toplam",
+        "shipping": "Kargo",
+        "freeShipping": "Ücretsiz",
+        "discount": "İndirim",
+        "remove": "Kaldır",
+        "selectAll": "Tümünü Seç",
+        "items": "ürün",
+        "clearCart": "Sepeti Temizle",
+        "orderSummary": "Sipariş Özeti"
+    },
+    "favorites": {
+        "title": "Favorilerim",
+        "empty": "Favorileriniz boş",
+        "addProducts": "Ürün eklemek için kalp simgesine tıklayın"
+    },
+    "footer": {
+        "aboutUs": "Hakkımızda",
+        "contact": "İletişim",
+        "helpCenter": "Yardım Merkezi",
+        "returnPolicy": "İade Politikası",
+        "privacyPolicy": "Gizlilik Politikası",
+        "terms": "Kullanım Koşulları",
+        "followUs": "Bizi Takip Edin",
+        "newsletter": "Bülten",
+        "newsletterPlaceholder": "E-posta adresiniz",
+        "subscribe": "Abone Ol",
+        "copyright": "© {year} Pazaryeri. Tüm hakları saklıdır."
+    },
+    "common": {
+        "loading": "Yükleniyor...",
+        "error": "Bir hata oluştu",
+        "retry": "Tekrar Dene",
+        "back": "Geri",
+        "next": "İleri",
+        "save": "Kaydet",
+        "cancel": "İptal",
+        "close": "Kapat",
+        "seeAll": "Tümünü Gör",
+        "new": "Yeni",
+        "sale": "İndirim",
+        "discount": "%{percent} İndirim",
+        "currency": "₺"
+    },
+    "errors": {
+        "notFound": "Sayfa Bulunamadı",
+        "notFoundMessage": "Aradığınız sayfa mevcut değil veya taşınmış olabilir.",
+        "serverError": "Sunucu Hatası",
+        "serverErrorMessage": "Bir şeyler yanlış gitti. Lütfen daha sonra tekrar deneyin.",
+        "goHome": "Ana Sayfaya Dön"
+    }
+}

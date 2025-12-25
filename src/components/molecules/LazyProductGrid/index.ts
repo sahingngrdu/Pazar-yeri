@@ -1,0 +1,1 @@
+export { LazyProductGrid } from './LazyProductGrid';
