@@ -144,10 +144,9 @@ export function SearchBar({
                 className={`
           relative flex items-center rounded-xl border-2 transition-all duration-200
           ${isFocused
-                        ? 'border-indigo-500 shadow-lg shadow-indigo-500/20'
-                        : 'border-gray-200 dark:border-gray-700'
+                        ? 'border-indigo-500 shadow-lg shadow-indigo-500/20 bg-white dark:bg-gray-800'
+                        : 'border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-900/50'
                     }
-          bg-white dark:bg-gray-800
         `}
             >
                 <span className="pl-4 text-gray-400">{searchIcon}</span>
@@ -160,7 +159,7 @@ export function SearchBar({
                     onFocus={() => setIsFocused(true)}
                     onBlur={() => setIsFocused(false)}
                     placeholder={placeholder || t('searchPlaceholder')}
-                    className="w-full py-2.5 px-3 bg-transparent text-gray-900 dark:text-white placeholder:text-gray-500 focus:outline-none"
+                    className="w-full py-2.5 px-3 bg-transparent text-gray-900 dark:text-white placeholder:text-gray-500 !outline-none !border-none !ring-0 !shadow-none appearance-none focus:!outline-none focus:!border-none focus:!ring-0 focus-visible:!outline-none focus-visible:!border-none focus-visible:!ring-0"
                 />
                 <AnimatePresence>
                     {query && (

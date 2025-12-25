@@ -94,7 +94,9 @@
         "new": "New",
         "sale": "Sale",
         "discount": "{percent}% Off",
-        "currency": "₺"
+        "currency": "₺",
+        "searchPlaceholder": "Search for products, categories or brands...",
+        "clear": "Clear"
     },
     "errors": {
         "notFound": "Page Not Found",

@@ -94,7 +94,9 @@
         "new": "Yeni",
         "sale": "İndirim",
         "discount": "%{percent} İndirim",
-        "currency": "₺"
+        "currency": "₺",
+        "searchPlaceholder": "Ürün, kategori veya marka ara...",
+        "clear": "Temizle"
     },
     "errors": {
         "notFound": "Sayfa Bulunamadı",
